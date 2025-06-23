@@ -1,0 +1,50 @@
+import { motion } from "framer-motion";
+import profile from "../assets/profile-pic-2.jpeg";
+import profile1 from "../assets/profile-pic-6.jpg";
+import profile2 from "../assets/profile-pic-7.jpg";
+
+
+
+const HeroSection = () => {
+  return (
+    <>
+    <section id="herosection" className="bg-[#f38f8f] pt-15 text-white ">
+      <div className=" pl-2 lg:pl-8 flex flex-col-reverse ">  
+        <div className=" pt-60 md:pt-50 lg:pt-75 pb-8">
+          <h1 className=" text-[25px] md:text-[43px] lg:text-8xl font-bold text-[#dffbec] ">
+            LIFE.<br/> 
+            TRAVEL.<br/> 
+            {/* EVERYDAY <span className="animate-pulse text-[#f35454] ease-out duration-800 ">MAGIC.</span> */}
+            EVERYDAY {" "}
+            <motion.span
+              className="text-[#f35454]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+              repeat: Infinity,
+              duration: 2,
+              ease: "easeInOut",
+              }}
+            >
+            MAGIC.
+            </motion.span>
+          </h1>
+
+          <p className=" text-[10px] md:text-[15px] lg:text-lg text-[#e9efec] font-light lg:mb-6">
+            Finding extraordinary in the ordinary – from travel to self-reflection
+          </p>
+        </div>
+
+        <div className="mt-8 relative md:w-[420px] lg:w-[500px] " >
+          <img src={profile} className=" left-50 md:left-134 lg:left-274 top-1 absolute z-5 h-[100px] w-[100px] md:h-[135px] md:w-[135px] lg:h-[220px] lg:w-[220px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
+          <img src={profile1} className=" absolute left-60 md:left-149 lg:left-304 top-18 md:top-23 lg:top-38 h-[100px] w-[100px] md:h-[135px] lg:h-[210px] md:w-[135px] lg:w-[200px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
+          <img src={profile2} className=" absolute left-56 md:left-139 lg:left-292 top-39 md:top-51 lg:top-82 h-[100px] w-[100px] md:h-[135px] lg:h-[200px] md:w-[137px] lg:w-[190px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
+        </div>
+
+      </div>
+    </section>
+    </>
+  );
+};
+
+export default HeroSection;
