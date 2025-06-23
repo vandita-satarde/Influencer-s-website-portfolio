@@ -48,7 +48,7 @@ const CollaborationEvents = () => {
           From brand partnerships to curated launch parties, my journey as a lifestyle and travel creator
           has been enriched by incredible collaborations and memorable events.
         </p>
-        <p className=" text-[11px] ">
+        <p className=" text-[11px] md:text-[15px] ">
           I’ve had the privilege to work with passionate brands and attend exclusive experiences
           that<br/> align with my values — authenticity, creativity, and a love for beautiful moments.
         </p>
@@ -108,7 +108,7 @@ const CollaborationEvents = () => {
         {/* feedback */}
         <div>
           <h3  id='work' className=" md:text-[18px] lg:text-[19px] font-semibold mb-4 mt-23">What Partners Say</h3>
-          <blockquote className="bg-[#ecf1ee] p-6 rounded-lg shadow-inner max-w-65 md:max-w-xl lg:max-w-xl text-[9px] lg:text-[12px] ">
+          <blockquote className="bg-[#ecf1ee] p-6 rounded-lg shadow-inner max-w-65 md:max-w-105 lg:max-w-xl text-[9px] md:text-[14px] lg:text-[12px] ">
             “Working with <strong>Clarie</strong> was seamless and creatively fulfilling. Their attention to detail and unique storytelling makes us want to work with them more in the future.”
             <footer className="mt-4 text-[8px] md:text-sm lg:text-sm text-gray-500">— PR Representative, Chanel </footer>
           </blockquote>
@@ -124,7 +124,7 @@ const CollaborationEvents = () => {
           Whether it’s co-creating content, attending curated brand events, or being featured<br/> in campaigns — I’d love to hear from you.
         </p>
         <a href="/work-with-me" >
-          <p className="inline-block animate-pulse bg-[#e64c4c] hover:bg-[#e86363] text-white text-[9px] md:text-[16px] lg:text-[16px] py-3 px-6 rounded-full transition">Work with Me</p>
+          <p className="inline-block animate-pulse bg-[#e64c4c] hover:bg-[#e86363] text-white text-[9px] md:text-[17px] lg:text-[16px] py-3 px-6 rounded-full transition">Work with Me</p>
         </a>
       </section>
       <hr className='text-[#bc4f4f]' />

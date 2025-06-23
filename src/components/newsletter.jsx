@@ -12,9 +12,9 @@ const Newsletter = () => {
           Monthly updates, personal notes, and travel inspiration – straight<br/> to your inbox
         </span>
       </p>
-      <form className="flex flex-row justify-center text-[11px] md:text-[16px] lg:text-[16px] items-center gap-4 max-w-xl mx-auto">
+      <form className="flex flex-row justify-center text-[11px] md:text-[17px] lg:text-[16px] items-center gap-4 max-w-xl mx-auto">
         <input
-          type="email" novalidate
+          type="email"
           placeholder="Your email address"
           className="w-full md:w-2/3 px-4 py-3 border border-[#70c196] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#9cd3b6]"
         />
