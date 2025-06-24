@@ -7,9 +7,9 @@ const content = () => {
     <>
 
     {/* 2 */}
-    <div id="about" className="bg-[#f4f9f6] border-l-3 md:border-l-5 lg:border-l-8 p-7 lg:p-18 text-base text-[11px] md:text-lg  ">
+    <div id="about" className="bg-[#f4f9f6] border-l-3 md:border-l-5 lg:border-l-8 p-7 lg:p-18 text-base text-[10px] md:text-lg  ">
           <p>
-            Hi, I’m <br/><span className="font-semibold text-[23px] md:text-3xl lg:text-4xl">Clarie</span><br />
+            Hi, I’m <br/><span className="font-semibold text-[20px] md:text-3xl lg:text-4xl">Clarie</span><br />
             Welcome to my world of curated moments, meaningful adventures, and everyday beauty. I’m a lifestyle & travel creator helping people find inspiration in the little things — whether it’s a weekend getaway, a cozy morning routine, or a thoughtful life upgrade (or a life lesson learned along the way).
           </p>
     </div>
