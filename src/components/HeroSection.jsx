@@ -9,8 +9,8 @@ const HeroSection = () => {
   return (
     <>
     <section id="herosection" className="bg-[#f38f8f] pt-15 text-white ">
-      <div className=" pl-2 md:pl-6 lg:pl-8 flex flex-col-reverse ">  
-        <div className=" pt-60 md:pt-90 lg:pt-75 pb-8">
+      <div className=" pl-2 md:pl-6 lg:pl-38 flex flex-col-reverse ">  
+        <div className=" pt-60 md:pt-90 lg:pt-38 pb-38">
           <h1 className=" text-[25px] md:text-[56px] lg:text-8xl font-bold text-[#dffbec] ">
             LIFE.<br/> 
             TRAVEL.<br/> 
@@ -36,9 +36,9 @@ const HeroSection = () => {
         </div>
 
         <div className="mt-8 relative md:w-[420px] lg:w-[500px] " >
-          <img src={profile} className=" left-50 md:left-134 lg:left-274 top-1 absolute z-5 h-[100px] w-[100px] md:h-[135px] md:w-[135px] lg:h-[220px] lg:w-[220px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
-          <img src={profile1} className=" absolute left-60 md:left-149 lg:left-304 top-18 md:top-27 lg:top-38 h-[100px] w-[100px] md:h-[135px] lg:h-[210px] md:w-[135px] lg:w-[200px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
-          <img src={profile2} className=" absolute left-56 md:left-139 lg:left-292 top-39 md:top-56 lg:top-82 h-[100px] w-[100px] md:h-[135px] lg:h-[200px] md:w-[137px] lg:w-[190px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
+          <img src={profile} className=" left-50 md:left-134 lg:left-224 top-1 absolute z-5 h-[100px] w-[100px] md:h-[135px] md:w-[135px] lg:h-[220px] lg:w-[220px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
+          <img src={profile1} className=" absolute left-60 md:left-149 lg:left-260 top-18 md:top-27 lg:top-38 h-[100px] w-[100px] md:h-[135px] lg:h-[210px] md:w-[135px] lg:w-[200px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
+          <img src={profile2} className=" absolute left-56 md:left-139 lg:left-242 top-39 md:top-56 lg:top-82 h-[100px] w-[100px] md:h-[135px] lg:h-[200px] md:w-[137px] lg:w-[190px] rounded-[50%] border-2 shadow-sm shadow-gray-500 "/>
         </div>
 
       </div>
